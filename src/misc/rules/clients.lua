@@ -51,7 +51,7 @@ ruled.client.connect_signal("request::rules", function()
         except_any = {
             class = {
                 "qutebrowser",
-                "obsidian",
+                -- "obsidian",
 		"Org.gnome.Nautilus",
 		"Gnome-control-center",
                 "google-chrome"

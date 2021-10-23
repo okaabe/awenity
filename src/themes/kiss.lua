@@ -109,7 +109,7 @@ theme.window_switcher_clients_spacing = dpi(50)
 -- TITLEBAR
 
 theme.titlebar_bg_focus  = theme.xcolor4
-theme.titlebar_bg_normal = theme.xcolor0
+theme.titlebar_bg_normal = theme.xbg
 theme.titlebar_fg_focus  = theme.xfg
 theme.titlebar_fg_normal = theme.xcolor15
 theme.titlebar_height    = dpi(28)
