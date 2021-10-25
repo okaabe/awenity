@@ -1,5 +1,4 @@
 local awful = require("awful")
-local bling = require("libs.bling")
 
 awful.mouse.append_global_mousebindings({
     awful.button({ }, 3, function() mymainmenu:toggle() end),
