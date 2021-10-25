@@ -9,7 +9,6 @@ end
 
 autostart = {
     "nm-applet",
-    "xset -b",
     "corectrl",
     "nitrogen --restore"
 }
