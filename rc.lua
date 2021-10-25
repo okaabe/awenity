@@ -1,10 +1,8 @@
 pcall(require, "luarocks.loader")
 
-local gears = require("gears")
 local awful = require("awful")
 local naughty = require("naughty")
 local beautiful = require("beautiful")
-local helpers = require("libs.helpers")
 local gfs = require("gears.filesystem")
 
 
@@ -36,25 +34,18 @@ controlkey = "Control"
 
 
 -- Load external modules
-local bling = require("libs.bling")
 
 local tile = awful.layout.suit.tile
 local floating = awful.layout.suit.floating
-local mstab = bling.layout.mstab
 
 awful.layout.layouts = {
     tile,
     floating,
-    -- mstab,
-    -- bling.layout.centered,
 }
-
-local gap_size = beautiful.useless_gap
 
 -- Define tag names
 screen.connect_signal("request::desktop_decoration", function(s)
-    awful.tag({ "", "", "", "", "ﭮ" }, s, awful.layout.layouts[1])
-    --awful.tag({"code", "work", "home", "college", "extra"}, s, awful.layout.layouts[1])
+    awful.tag({"code", "work", "home", "college", "extra"}, s, awful.layout.layouts[1])
 end)
 
 -- Focus on click
