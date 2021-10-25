@@ -1,2 +1,1 @@
-require("src.components.decoration.titlebar")
---require("src.components.decoration.bar")
+require("src.components.decoration.top")
