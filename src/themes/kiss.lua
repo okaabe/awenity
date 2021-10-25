@@ -47,7 +47,7 @@ theme.fg_urgent     = theme.xcolor2
 theme.fg_minimize   = theme.xcolor8
 
 -- Windows
-theme.border_width      = dpi(0)
+theme.border_width      = dpi(1)
 theme.border_radius     = dpi(8) -- dpi(15)
 theme.border_focus      = theme.xbgdark -- theme.xcolor12 -- "#1F211D"
 theme.border_normal     = theme.xbgdark -- "#1F211D"
@@ -89,7 +89,7 @@ theme.notification_border_color = theme.border_normal
 
 -- Bling tabbar settings
 theme.tabbed_spawn_in_tab = true
-theme.tabbar_style        = "i3"
+theme.tabbar_style        = "default"
 theme.tabbar_size         = dpi(28)
 theme.tabbar_ontop        = true
 theme.tabbar_position     = "top"
@@ -98,6 +98,11 @@ theme.tabbar_fg_normal = theme.fg_normal
 theme.tabbar_bg_focus  = theme.xcolor4
 theme.tabbar_fg_focus  = theme.xfg
 theme.tabbar_bg_focus_inactive = theme.xbglight
+
+theme.tabbar_border_inactive = theme.xbglight
+theme.tabbar_border_normal = theme.border_normal
+theme.tabbar_border_focus  = theme.xcolor12
+
 
 -- Window switcher
 theme.window_switcher_widget_bg = theme.xbg
