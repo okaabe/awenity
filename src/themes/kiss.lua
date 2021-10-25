@@ -104,15 +104,7 @@ theme.tabbar_border_normal = theme.border_normal
 theme.tabbar_border_focus  = theme.xcolor12
 
 
--- Window switcher
-theme.window_switcher_widget_bg = theme.xbg
-theme.window_switcher_widget_border_color = theme.xbgdark
-theme.window_switcher_name_normal_color = theme.xcolor8
-theme.window_switcher_name_focus_color = theme.xcolor2
-theme.window_switcher_clients_spacing = dpi(50)
-
 -- TITLEBAR
-
 theme.titlebar_bg_focus  = theme.xcolor4
 theme.titlebar_bg_normal = theme.xbg
 theme.titlebar_fg_focus  = theme.xfg
