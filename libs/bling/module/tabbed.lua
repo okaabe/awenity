@@ -14,9 +14,11 @@ local awful = require("awful")
 local wibox = require("wibox")
 local gears = require("gears")
 local beautiful = require("beautiful")
-local helpers = require(tostring(...):match(".*bling") .. ".helpers")
+
+local helpers = require("libs.bling.helpers")
 
 local bar_style = beautiful.tabbar_style or "default"
+
 local bar = require(
     tostring(...):match(".*bling") .. ".widget.tabbar." .. bar_style
 )
