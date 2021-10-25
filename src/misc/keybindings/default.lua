@@ -63,15 +63,5 @@ client.connect_signal("request::default_keybindings", function()
                 c.ontop = not c.ontop
             end,
         },
-
-        awful.key {
-            modifiers = { modkey },
-            key = "a",
-            group = "Client",
-            description = "Pick a client with dmenu",
-            on_press = function(c)
-                bling.module.tabbed.pick_with_dmenu()
-            end,
-        },
     })
 end)
