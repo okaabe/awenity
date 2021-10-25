@@ -5,17 +5,6 @@ local naughty = require("naughty")
 local beautiful = require("beautiful")
 local gfs = require("gears.filesystem")
 
-
--- Error on startup notification:
-naughty.connect_signal("request::display_error", function(message, startup)
-    naughty.notification {
-        urgency = "critical",
-        title = "An error happened"..(startup and " during startup!" or "!"),
-        message = message
-    }
-end)
-
-
 -- Initialize selected theme.
 beautiful.init(gfs.get_configuration_dir() .. "src/themes/kiss.lua")
 
@@ -23,8 +12,6 @@ beautiful.init(gfs.get_configuration_dir() .. "src/themes/kiss.lua")
 collectgarbage("step", 1024)
 collectgarbage("setpause", 110)
 collectgarbage("setstepmul", 1000)
-
-
 
 -- modifiers
 modkey = "Mod4"
@@ -34,13 +21,9 @@ controlkey = "Control"
 
 
 -- Load external modules
-
-local tile = awful.layout.suit.tile
-local floating = awful.layout.suit.floating
-
 awful.layout.layouts = {
-    tile,
-    floating,
+    awful.layout.suit.tile,
+    awful.layout.suit.floating,
 }
 
 -- Define tag names
@@ -62,4 +45,3 @@ end)
 -- Load modules
 require("src")
 require("libs.autostart")
-
