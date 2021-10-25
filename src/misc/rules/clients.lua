@@ -48,15 +48,15 @@ ruled.client.connect_signal("request::rules", function()
                 "normal"
             },
         },
-        except_any = {
-            class = {
-                "qutebrowser",
-                -- "obsidian",
-		"Org.gnome.Nautilus",
-		"Gnome-control-center",
-                "google-chrome"
-            },
-        },
+        -- except_any = {
+        --     class = {
+        --         "qutebrowser",
+        --         -- "obsidian",
+		--         "Org.gnome.Nautilus",
+		--         "Gnome-control-center",
+        --         "google-chrome"
+        --     },
+        -- },
         properties = {
             titlebars_enabled = true
         }
