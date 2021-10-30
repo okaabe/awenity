@@ -99,7 +99,7 @@ theme.tabbar_bg_focus  = theme.xcolor4
 theme.tabbar_fg_focus  = theme.xfg
 theme.tabbar_bg_focus_inactive = theme.xbglight
 
-theme.tabbar_border_inactive = theme.xbglight
+theme.tabbar_border_inactive = "#303437" -- theme.xbglight
 theme.tabbar_border_normal = theme.border_normal
 theme.tabbar_border_focus  = theme.xcolor12
 
