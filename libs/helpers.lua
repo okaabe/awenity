@@ -63,6 +63,38 @@ function helpers.icon(img, top, bottom, left, right, callback)
     }, callback)
 end
 
+function helpers.get_titlebar_colors_by_state(c)
+    if client.focus == c then
+        return {
+            background = (
+                beautiful.titlebar_bg_focus or
+                beautiful.bg_focus or
+                "#FFFFFF"
+            ),
+            foreground = (
+                beautiful.titlebar_fg_focus or
+                beautiful.fg_focus or
+                "#000000"
+            ),
+            border = beautiful.titlebar_border_focus or beautiful.border_focus
+        }
+    else
+        return {
+            background = (
+                beautiful.titlebar_bg_normal or
+                beautiful.bg_normal or
+                "#FFFFFF"
+            ),
+            foreground = (
+                beautiful.titlebar_fg_normal or
+                beautiful.fg_normal or
+                "#000000"
+            ),
+            border = beautiful.titlebar_border_normal or beautiful.border_normal
+        }
+    end
+end
+
 -- Create rounded rectangle shape (in one line)
 helpers.rrect = function(radius)
     return function(cr, width, height)

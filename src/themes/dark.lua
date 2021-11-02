@@ -7,26 +7,26 @@ local gears          = require("gears")
 local theme   = {}
 
 -- Colors
-theme.xfg                                       = "#000000"
-theme.xbg                                       = "#a8a8a8" -- "#1A2026" -- "#F7F1E3"
-theme.xbgdark                                   = "#999999" --"#242D35" -- "#FFF9EC"---"#14181d"
-theme.xbglight                                  = "#aaaaaa"
-theme.xcolor0                                   = "#a8a8a8" -- "#1A2026"
-theme.xcolor8                                   = "#999999"
+theme.xfg                                       = "#F4F4F4"
+theme.xbg                                       = "#222222" -- "#1A2026" -- "#F7F1E3"
+theme.xbgdark                                   = "#333333" --"#242D35" -- "#FFF9EC"---"#14181d"
+theme.xbglight                                  = "#5F676A"
+theme.xcolor0                                   = "#222222" -- "#1A2026"
+theme.xcolor8                                   = "#333333"
 theme.xcolor1                                   = "#B68E7C"
 theme.xcolor9                                   = "#B68E7C"
 theme.xcolor2                                   = "#C6C4B9"
 theme.xcolor10                                  = "#C6C4B9"
 theme.xcolor3                                   = "#9B9992"
 theme.xcolor11                                  = "#9B9992"
-theme.xcolor4                                   = "#487FB2"
-theme.xcolor12                                  = "#487FB2"
+theme.xcolor4                                   = "#2B5575"
+theme.xcolor12                                  = "#4A7798"
 theme.xcolor5                                   = "#5A5A58"
 theme.xcolor13                                  = "#5A5A58"
 theme.xcolor6                                   = "#A47F82"
 theme.xcolor14                                  = "#A47F82"
 theme.xcolor7                                   = "#B0B0B0"
-theme.xcolor15                                  = "#ffffff"
+theme.xcolor15                                  = "#BBBBBB"
 
 -- Global font
 theme.font              = "PragmataProMonoLiga Nerd Font 11"-- "Iosevka 11"
@@ -47,10 +47,10 @@ theme.fg_urgent     = theme.xcolor2
 theme.fg_minimize   = theme.xcolor8
 
 -- Windows
-theme.border_width      = dpi(1)
+theme.border_width      = dpi(0)
 theme.border_radius     = dpi(8) -- dpi(15)
-theme.border_focus      = theme.xfg -- theme.xcolor12 -- "#1F211D"
-theme.border_normal     = theme.xfg -- "#1F211D"
+theme.border_focus      = theme.xbgdark -- theme.xcolor12 -- "#1F211D"
+theme.border_normal     = theme.xbgdark -- "#1F211D"
 theme.border_marked     = "#3c2b22"
 theme.useless_gap       = dpi(0)
 theme.gap_single_client = true
@@ -65,7 +65,7 @@ theme.hotkeys_border_color     = theme.border_focus
 theme.hotkeys_group_margin     = dpi(5)
 
 -- mouse menu
-theme.menu_height       = dpi(30)
+theme.menu_height       = dpi(28)
 theme.menu_width        = dpi(120)
 theme.menu_font         = theme.font_menu
 theme.menu_border_width = dpi(2)
@@ -90,17 +90,14 @@ theme.notification_border_color = theme.border_normal
 -- Bling tabbar settings
 theme.tabbed_spawn_in_tab = true
 theme.tabbar_style        = "default"
-theme.tabbar_size         = dpi(30)
+theme.tabbar_size         = dpi(28)
 theme.tabbar_ontop        = true
 theme.tabbar_position     = "top"
 theme.tabbar_bg_normal = theme.xbg
-theme.tabbar_fg_normal = theme.xfg
+theme.tabbar_fg_normal = theme.fg_normal
 theme.tabbar_bg_focus  = theme.xcolor4
-theme.tabbar_fg_focus  = theme.xcolor15
-
-theme.tabbar_bg_normal_inactive = theme.xbgdark
-theme.tabbar_bg_focus_inactive = theme.xbg
-theme.tabbar_fg_focus_inactive = theme.xfg
+theme.tabbar_fg_focus  = theme.xfg
+theme.tabbar_bg_focus_inactive = theme.xbglight
 
 theme.tabbar_border_inactive = "#303437" -- theme.xbglight
 theme.tabbar_border_normal = theme.border_normal
@@ -110,9 +107,9 @@ theme.tabbar_border_focus  = theme.xcolor12
 -- TITLEBAR
 theme.titlebar_bg_focus  = theme.xcolor4
 theme.titlebar_bg_normal = theme.xbg
-theme.titlebar_fg_focus  = theme.xcolor15
-theme.titlebar_fg_normal = theme.xfg
-theme.titlebar_height    = dpi(30)
+theme.titlebar_fg_focus  = theme.xfg
+theme.titlebar_fg_normal = theme.xcolor15
+theme.titlebar_height    = dpi(28)
 theme.titlebar_margin = dpi(10)
 theme.titlebar_spacing = dpi(3)
 
