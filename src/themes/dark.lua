@@ -65,7 +65,7 @@ theme.hotkeys_border_color     = theme.border_focus
 theme.hotkeys_group_margin     = dpi(5)
 
 -- mouse menu
-theme.menu_height       = dpi(28)
+theme.menu_height       = dpi(30)
 theme.menu_width        = dpi(120)
 theme.menu_font         = theme.font_menu
 theme.menu_border_width = dpi(2)
@@ -90,7 +90,7 @@ theme.notification_border_color = theme.border_normal
 -- Bling tabbar settings
 theme.tabbed_spawn_in_tab = true
 theme.tabbar_style        = "default"
-theme.tabbar_size         = dpi(28)
+theme.tabbar_size         = dpi(30)
 theme.tabbar_ontop        = true
 theme.tabbar_position     = "top"
 theme.tabbar_bg_normal = theme.xbg
@@ -109,7 +109,7 @@ theme.titlebar_bg_focus  = theme.xcolor4
 theme.titlebar_bg_normal = theme.xbg
 theme.titlebar_fg_focus  = theme.xfg
 theme.titlebar_fg_normal = theme.xcolor15
-theme.titlebar_height    = dpi(28)
+theme.titlebar_height    = dpi(30)
 theme.titlebar_margin = dpi(10)
 theme.titlebar_spacing = dpi(3)
 

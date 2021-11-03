@@ -6,7 +6,7 @@ local beautiful = require("beautiful")
 local gfs = require("gears.filesystem")
 
 -- Initialize selected theme.
-beautiful.init(gfs.get_configuration_dir() .. "src/themes/kiss.lua")
+beautiful.init(gfs.get_configuration_dir() .. "src/themes/dark.lua")
 
 -- garbage collector
 collectgarbage("step", 1024)
