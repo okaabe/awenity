@@ -29,10 +29,10 @@ theme.xcolor7                                   = "#B0B0B0"
 theme.xcolor15                                  = "#BBBBBB"
 
 -- Global font
-theme.font              = "PragmataProMonoLiga Nerd Font 11"-- "Iosevka 11"
-theme.font_notifs       = "PragmataProMonoLiga Nerd Font 11"
-theme.font_hotkeys      = "PragmataProMonoLiga Nerd Font 11"
-theme.font_hotkeys_bold = "PragmataProMonoLiga Nerd Font 11"
+theme.font              = "Iosevka 11"-- "Iosevka 11"
+theme.font_notifs       = "Iosevka 11"
+theme.font_hotkeys      = "Iosevka 11"
+theme.font_hotkeys_bold = "Iosevka 11"
 
 -- Wibox Background
 theme.bg_normal     = theme.xbg 
