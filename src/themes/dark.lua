@@ -29,7 +29,7 @@ theme.xcolor7                                   = "#B0B0B0"
 theme.xcolor15                                  = "#BBBBBB"
 
 -- Global font
-theme.font              = "Iosevka 13"-- "Iosevka 11"
+theme.font              = "Iosevka 12"-- "Iosevka 11"
 theme.font_notifs       = "Iosevka 11"
 theme.font_hotkeys      = "Iosevka 11"
 theme.font_hotkeys_bold = "Iosevka 11"
