@@ -11,7 +11,7 @@ client.connect_signal("request::titlebars", function(c)
 
     awful.titlebar(c, {
         size = beautiful.titlebar_height or dpi(30),
-		ontop = true
+	ontop = true
     }): setup {
         layout = wibox.layout.align.vertical,
         expand = "none",

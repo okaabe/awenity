@@ -47,7 +47,7 @@ theme.fg_urgent     = theme.xcolor2
 theme.fg_minimize   = theme.xcolor8
 
 -- Windows
-theme.border_width      = dpi(0)
+theme.border_width      = dpi(1)
 theme.border_radius     = dpi(8) -- dpi(15)
 theme.border_focus      = theme.xbgdark -- theme.xcolor12 -- "#1F211D"
 theme.border_normal     = theme.xbgdark -- "#1F211D"
