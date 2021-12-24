@@ -19,6 +19,9 @@ ruled.client.connect_signal("request::rules", function()
                 "Wpa_gui",
                 "veromix",
                 "xtightvncviewer",
+		        "feh",
+				--"Minecraft",
+				--"net-technicpack-launcher-LauncherMain",
         	--[[	"thunar",
 		        "Lxappearance",
                 "lxappearance",
@@ -36,16 +39,28 @@ ruled.client.connect_signal("request::rules", function()
             }
         },
         properties = {
-            floating = true
+            floating = true,
         }
     }
+
+	ruled.client.append_rule {
+		id = "ontop",
+		rule_any = {
+			"feh",
+		},
+		properties = {
+			ontop = true,
+		}
+	}
 
     -- Add titlebars to normal clients
     ruled.client.append_rule {
         id = "titlebars",
         rule_any = {
             type = {
-                "normal"
+                "normal",
+				"dialog",
+				"utility"
             },
         },
         -- except_any = {
