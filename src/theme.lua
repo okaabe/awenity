@@ -44,7 +44,7 @@ theme.titlebar_bg_focus  = "#454545"
 
 theme.dock_size = dpi(60)
 
-theme.tasklist_bg_normal = "#57575799"
+theme.tasklist_bg_normal = "#45454500"
 theme.tasklist_bg_focus = "#575757"
 
 local tip = gears.filesystem.get_configuration_dir() .. "/assets/"

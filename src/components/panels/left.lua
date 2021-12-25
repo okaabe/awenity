@@ -11,6 +11,9 @@ local tasklist = function(s)
   return awful.widget.tasklist {
     screen = s,
     filter = awful.widget.tasklist.filter.currenttags,
+    style = {
+      shape = helpers.rrect(3),
+    },
     layout = {
       spacing = 0,
       spacing_widget = {

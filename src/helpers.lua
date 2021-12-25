@@ -62,7 +62,7 @@ helpers.box = function(wid, bg, margin)
 			wid,
 			bg = bg .. "80",
 			widget = wibox.container.background,
-			shape = helpers.rrect(dpi(5))
+			shape = helpers.rrect(dpi(3))
 		},
 		margins = margin or 4,
 		widget = wibox.container.margin,

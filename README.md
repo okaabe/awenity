@@ -1,8 +1,4 @@
 # AwesomeWM
-That's just my awesomewm config, yeah im trying to make a clone of the i3wm features + UI in awesomewm. Why? I have no idea...
+That's just an attempt to make awesomewm looks like unity-desktop, nhee but there are still many things to do to make it works as it should
 
-## Install
-Check if there is a folder called `awesome` in your `$XDG_CONFIG` directory, if so... delete it.
-```
-- git clone https://github.com/tosuki/awesome-i3 $HOME/.config/awesome
-```
+<img src="./assets/scrots/preview.png"/>
